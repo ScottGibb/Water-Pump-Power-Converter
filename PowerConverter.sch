@@ -20083,10 +20083,10 @@ controlled avalanche rectifier</description>
 <attribute name="NAME" x="64.5414" y="31.75" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="69.342" y="31.75" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="INPUT" gate="G$1" x="-5.08" y="45.72" smashed="yes" rot="MR0" grouprefs="POWER_CONVERTOR">
-<attribute name="NAME" x="-3.81" y="49.53" size="1.778" layer="95" rot="MR0"/>
+<instance part="INPUT" gate="G$1" x="-7.62" y="43.18" smashed="yes" rot="MR270" grouprefs="POWER_CONVERTOR">
+<attribute name="NAME" x="-8.89" y="39.37" size="1.778" layer="95" rot="MR180"/>
 </instance>
-<instance part="OUTPUT" gate="G$1" x="160.02" y="43.18" smashed="yes" rot="MR180" grouprefs="POWER_CONVERTOR">
+<instance part="OUTPUT" gate="G$1" x="165.1" y="45.72" smashed="yes" rot="MR90" grouprefs="POWER_CONVERTOR">
 <attribute name="NAME" x="158.75" y="39.37" size="1.778" layer="95" rot="MR180"/>
 </instance>
 <instance part="C1" gate="G$1" x="104.14" y="30.48" smashed="yes" grouprefs="POWER_CONVERTOR">
@@ -20130,7 +20130,7 @@ controlled avalanche rectifier</description>
 <segment>
 <pinref part="INPUT" gate="G$1" pin="1"/>
 <pinref part="C2" gate="G$1" pin="+"/>
-<wire x1="-2.54" y1="40.64" x2="15.24" y2="45.72" width="0.1524" layer="91" grouprefs="POWER_CONVERTOR"/>
+<wire x1="-2.54" y1="45.72" x2="15.24" y2="45.72" width="0.1524" layer="91" grouprefs="POWER_CONVERTOR"/>
 <pinref part="IC1" gate="NC1" pin="IN"/>
 <wire x1="15.24" y1="45.72" x2="38.1" y2="45.72" width="0.1524" layer="91" grouprefs="POWER_CONVERTOR"/>
 <junction x="15.24" y="45.72" grouprefs="POWER_CONVERTOR"/>
@@ -20161,7 +20161,7 @@ controlled avalanche rectifier</description>
 <wire x1="48.26" y1="30.48" x2="66.04" y2="30.48" width="0.1524" layer="91" grouprefs="POWER_CONVERTOR"/>
 <junction x="48.26" y="30.48" grouprefs="POWER_CONVERTOR"/>
 <pinref part="INPUT" gate="G$1" pin="2"/>
-<wire x1="-5.08" y1="40.64" x2="2.54" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="43.18" x2="2.54" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="43.18" x2="2.54" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="30.48" x2="15.24" y2="30.48" width="0.1524" layer="91"/>
 </segment>
@@ -20176,7 +20176,7 @@ controlled avalanche rectifier</description>
 <wire x1="152.4" y1="22.86" x2="142.24" y2="22.86" width="0.1524" layer="91"/>
 <junction x="142.24" y="22.86"/>
 <pinref part="OUTPUT" gate="G$1" pin="1"/>
-<wire x1="152.4" y1="43.18" x2="157.48" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="43.18" x2="160.02" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="D1" gate="1" pin="A"/>
@@ -20242,7 +20242,7 @@ controlled avalanche rectifier</description>
 <wire x1="142.24" y1="45.72" x2="127" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="F2" gate="G$1" pin="2"/>
 <pinref part="OUTPUT" gate="G$1" pin="2"/>
-<wire x1="142.24" y1="45.72" x2="160.02" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="45.72" x2="160.02" y2="45.72" width="0.1524" layer="91"/>
 <junction x="142.24" y="45.72"/>
 </segment>
 </net>
